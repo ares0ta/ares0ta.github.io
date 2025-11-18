@@ -158,11 +158,11 @@ input, select, textarea {
 
 	body {
 		background-color: #ffffff;
-		color: #066c4a;
+		color: #000000;
 	}
 
 	body, input, select, textarea {
-		color: #066c4a;
+		color: #000000;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 1rem;
 		font-weight: 300;
@@ -176,7 +176,7 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.25s ease-in-out;
 		transition: border-bottom-color 0.25s ease-in-out;
 		text-decoration: none;
-		color: #066c4a;
+		color: #000000;
 		border-bottom: dotted 1px;
 	}
 
@@ -199,7 +199,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #c9a6c0;
+		color: #ffffff;
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-weight: 600;
 		letter-spacing: 0.175em;
