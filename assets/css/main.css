@@ -176,7 +176,7 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.25s ease-in-out;
 		transition: border-bottom-color 0.25s ease-in-out;
 		text-decoration: none;
-		color: #ffffff;
+		color: #FFFc4a;
 		border-bottom: dotted 1px;
 	}
 
@@ -2173,6 +2173,10 @@ input, select, textarea {
 			background-color: #ffffff;
 			color: #000000;
 		}
+
+
+
+
 
 		select:focus::-ms-value {
 			background-color: transparent;
