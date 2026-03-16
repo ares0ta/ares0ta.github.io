@@ -3096,6 +3096,75 @@ input, select, textarea {
 				opacity: 0;
 			}
 
+			.gallery .modal .modal-nav {
+				display: none;
+				position: absolute;
+				top: 50%;
+				left: 0;
+				right: 0;
+				-moz-transform: translateY(-50%);
+				-webkit-transform: translateY(-50%);
+				-ms-transform: translateY(-50%);
+				transform: translateY(-50%);
+				z-index: 1;
+				pointer-events: none;
+			}
+
+			.gallery .modal.visible .modal-nav {
+				pointer-events: auto;
+			}
+
+			.gallery .modal .modal-nav a {
+				position: absolute;
+				top: 0;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 3.5rem;
+				height: 3.5rem;
+				background: rgba(0, 0, 0, 0.5);
+				color: #ffffff;
+				font-size: 2rem;
+				line-height: 3.5rem;
+				text-decoration: none;
+				border: 0;
+				border-radius: 50%;
+				cursor: pointer;
+				-moz-transition: background 0.2s ease;
+				-webkit-transition: background 0.2s ease;
+				-ms-transition: background 0.2s ease;
+				transition: background 0.2s ease;
+			}
+
+			.gallery .modal .modal-nav a:hover {
+				background: rgba(0, 0, 0, 0.75);
+			}
+
+			.gallery .modal .modal-nav .modal-prev {
+				left: 1.5rem;
+			}
+
+			.gallery .modal .modal-nav .modal-next {
+				right: 1.5rem;
+			}
+
+		@media screen and (max-width: 736px) {
+			.gallery .modal .modal-nav a {
+				width: 2.5rem;
+				height: 2.5rem;
+				font-size: 1.5rem;
+				line-height: 2.5rem;
+			}
+
+			.gallery .modal .modal-nav .modal-prev {
+				left: 0.75rem;
+			}
+
+			.gallery .modal .modal-nav .modal-next {
+				right: 0.75rem;
+			}
+		}
+
 		@media screen and (max-width: 1152px) {
 
 			.gallery a img {
